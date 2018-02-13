@@ -1,4 +1,4 @@
-const triangle = require('../../src/chapter-01/triangle.js');
+const triangle = require('../../src/chapter-02/triangle.js');
 const printout =
 `#
 ##
