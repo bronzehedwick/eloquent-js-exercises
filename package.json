@@ -1,0 +1,22 @@
+{
+  "name": "elegant-js-exercises",
+  "version": "1.0.0",
+  "description": "Code and tests for elegant js exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bronzehedwick/elegant-js-exercises.git"
+  },
+  "author": "Chris DeLuca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bronzehedwick/elegant-js-exercises/issues"
+  },
+  "homepage": "https://github.com/bronzehedwick/elegant-js-exercises#readme",
+  "devDependencies": {
+    "jest": "^22.3.0"
+  }
+}
