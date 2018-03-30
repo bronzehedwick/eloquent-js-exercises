@@ -1,7 +1,6 @@
 const lists = require('../../src/chapter-04/list.js');
 const arrayToList = lists.arrayToList;
 const listToArray = lists.listToArray;
-const expectedArray = [1, 2, 3];
 const expectedList = {
     value: 1,
     rest: {
