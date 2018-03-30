@@ -10,5 +10,5 @@ const printout =
 `;
 
 test('outputs a triangle pattern', () => {
-  expect(triangle()).toBe(printout);
+    expect(triangle()).toBe(printout);
 });

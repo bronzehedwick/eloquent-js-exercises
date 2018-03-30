@@ -102,5 +102,5 @@ Buzz
 `;
 
 test('generates fizzbuzz', () => {
-  expect(fizzbuzz()).toBe(expectedOutput);
+    expect(fizzbuzz()).toBe(expectedOutput);
 });

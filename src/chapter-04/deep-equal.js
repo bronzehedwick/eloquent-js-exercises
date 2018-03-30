@@ -16,12 +16,12 @@ Excerpt From: Marijn Haverbeke. “Eloquent JavaScript: A Modern Introduction to
 */
 
 function deepEqual(value, reference) {
-  if (typeof value === 'object' && typeof reference === 'object') {
-    Object.keys(value).forEach(item => {
-      deepEqual(value[item], reference[item]);
-    });
-  }
-  return value === reference;
+    if (typeof value === 'object' && typeof reference === 'object') {
+        Object.keys(value).forEach(item => {
+            deepEqual(value[item], reference[item]);
+        });
+    }
+    return value === reference;
 }
 
 module.exports = deepEqual;

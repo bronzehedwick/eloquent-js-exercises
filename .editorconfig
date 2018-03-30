@@ -1,0 +1,25 @@
+# http://editorconfig.com
+
+# This is the top most editorconfig file.
+root = true
+
+# Unix-style newlines with a newline ending every file.
+[*]
+end_of_line = lf
+insert_final_newline = true
+# Use UTF-8 character encoding.
+charset = utf8
+# 4 space indentation
+indent_style = space
+indent_size = 4
+# Trim trailing whitespace.
+trim_trailing_whitespace = true
+
+# Decrease indent size for json and YAML files.
+[*.{json,yml,yaml}]
+indent_size = 2
+
+# Do not trim trailing whitespace for markdown files,
+# since it's meaningful in the syntax.
+[*.{md,markdown}]
+trim_trailing_whitespace = false
