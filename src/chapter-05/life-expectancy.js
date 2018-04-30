@@ -26,5 +26,4 @@ function averageAge() {
     return averagedData;
 }
 
-console.log(averageAge());
 module.exports = averageAge;
