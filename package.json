@@ -16,9 +16,13 @@
   "bugs": {
     "url": "https://github.com/bronzehedwick/elegant-js-exercises/issues"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "homepage": "https://github.com/bronzehedwick/elegant-js-exercises#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
-    "jest": "^22.4.3"
+    "jest": "^22.4.4"
   }
 }
