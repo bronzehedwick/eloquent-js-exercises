@@ -1,17 +1,9 @@
 function reverseArray(arr) {
-    let newArr = [];
-    for (let i = arr.length; i > 0; i--) {
-        newArr.push(i);
-    }
-    return newArr;
+  // Add code.
 }
 
 function reverseArrayInPlace(arr) {
-    for (let i = arr.length; i > 0; i--) {
-        arr.shift();
-        arr.push(i);
-    }
-    return arr;
+  // Add code.
 }
 
 module.exports = {
