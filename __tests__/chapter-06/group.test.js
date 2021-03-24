@@ -1,5 +1,5 @@
 const Group = require('../../src/chapter-06/group.js');
-let group = Group.from([10, 20]);
+const group = Group.from([10, 20]);
 
 test('has correct values', () => {
     expect(group.has(10)).toBe(true);
